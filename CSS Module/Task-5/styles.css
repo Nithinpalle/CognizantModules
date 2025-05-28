@@ -1,0 +1,45 @@
+/* ===============================
+   Typography Styles
+   =============================== */
+
+/* Apply Google Font globally */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Main Heading Style */
+.main-heading {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 0;
+  letter-spacing: 1px;
+  color: #004d40;
+}
+
+/* Section Heading */
+.description h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #00796b;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Paragraph Text */
+.description p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+  color: #444;
+  padding: 0 20px;
+}

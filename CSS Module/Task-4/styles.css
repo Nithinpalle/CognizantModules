@@ -1,0 +1,50 @@
+/* ===============================
+   Base Styles with HEX & RGBA
+   =============================== */
+
+/* Body background with fallback color and image */
+body {
+  background-color: #e0f7fa; /* HEX fallback color */
+  background-image: url('cityscape.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgba(0, 0, 0, 0.85); /* RGBA text color for soft black */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===============================
+   Header with Gradient Background
+   =============================== */
+
+/* Main banner with linear gradient */
+.main-header {
+  background: linear-gradient(to right, #004d40, #26a69a); /* deep green to teal */
+  color: #ffffff; /* White text using HEX */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* ===============================
+   Section Header Gradient Styling
+   =============================== */
+
+/* Apply gradient to section headers */
+.news-section h2 {
+  background: linear-gradient(to right, #1565c0, #64b5f6); /* blue gradient */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* Section content */
+.news-section {
+  background-color: rgba(255, 255, 255, 0.9); /* Light card effect */
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}

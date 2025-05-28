@@ -1,0 +1,49 @@
+/* ===============================
+   Box Model Styling for Cards
+   =============================== */
+
+.eventCard {
+  border: 2px solid #009688;
+  padding: 20px;
+  margin: 30px auto;
+  width: 80%;
+  background-color: #e0f7fa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ===============================
+   Form Input Field Outlining
+   =============================== */
+
+.input-field {
+  display: block;
+  width: 60%;
+  margin: 10px 0 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.input-field.selected {
+  outline: 3px solid #00796b; /* Highlight selected field */
+}
+
+/* ===============================
+   Visibility vs. Display Demo
+   =============================== */
+
+.box {
+  margin: 20px;
+  padding: 10px;
+  background-color: #ffecb3;
+  border: 1px dashed #ffa000;
+}
+
+/* Visibility hides element but keeps layout space */
+.hidden-box {
+  visibility: hidden;
+}
+
+/* Display removes element from layout entirely */
+.none-box {
+  display: none;
+}

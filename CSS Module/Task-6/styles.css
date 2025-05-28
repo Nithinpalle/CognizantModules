@@ -1,0 +1,61 @@
+/* ===============================
+   Link Styling
+   =============================== */
+
+/* Normal (unvisited) link */
+a:link {
+  color: #00695c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Visited link */
+a:visited {
+  color: #004d40;
+}
+
+/* Hover state */
+a:hover {
+  color: #009688;
+  text-decoration: underline;
+}
+
+/* Active (while clicking) */
+a:active {
+  color: #e91e63;
+}
+
+/* ===============================
+   Navigation Menu Styling
+   =============================== */
+
+.nav-menu {
+  list-style-type: none;         /* Remove bullets */
+  list-style-position: outside;
+  display: flex;
+  gap: 20px;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  margin: 0;
+}
+
+.nav-menu li {
+  margin: 0;
+  padding: 8px 0;
+}
+
+/* ===============================
+   Service List Styling
+   =============================== */
+
+.service-list {
+  list-style-type: square;       /* Change bullet shape */
+  list-style-position: inside;   /* Bullets inside the content box */
+  padding: 20px;
+  margin: 20px;
+}
+
+.service-list li {
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
